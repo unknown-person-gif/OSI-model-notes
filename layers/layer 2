@@ -1,1 +1,27 @@
+## 2. Data Link Layer (Layer 2)
 
+The **Data Link Layer** is responsible for the **physical addressing** of data as it travels across a network. It receives data from the **Network Layer** and adds the **MAC (Media Access Control) address** of the destination device before sending it over the physical network.
+
+Every network device has a **Network Interface Card (NIC)** with a unique **MAC address** assigned by the manufacturer. This address is used to identify devices within the same local network (LAN).
+
+The Data Link Layer also organizes data into **frames** and performs basic error detection to ensure data is transmitted correctly.
+
+### Functions
+
+* Adds the source and destination **MAC addresses**.
+* Converts packets into **frames** for transmission.
+* Detects transmission errors.
+* Controls access to the physical network.
+* Ensures data is delivered to the correct device on the local network.
+
+### Devices
+
+* Switch
+* Bridge
+* Network Interface Card (NIC)
+
+### Example
+
+When your computer sends data to another computer on the same Wi-Fi or Ethernet network, the Data Link Layer uses the destination device's **MAC address** to deliver the data to the correct device.
+
+**Key Point:** The **IP address** identifies a device across networks, while the **MAC address** identifies a device within the local network (LAN).
