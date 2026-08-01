@@ -1,0 +1,39 @@
+## 3. Network Layer (Layer 3)
+
+The **Network Layer** is responsible for **routing data** from the source device to the destination device across different networks. It determines the **best path** for data to travel and uses **IP addresses** to identify devices.
+
+When large amounts of data are sent, this layer can break the data into smaller **packets** and reassemble them at the destination.
+
+Routers operate at this layer and forward packets based on their destination IP address.
+
+### Functions
+
+* Assigns and uses **IP addresses**.
+* Determines the best route for data.
+* Forwards packets between different networks.
+* Breaks data into packets and reassembles them when needed.
+
+### Routing Factors
+
+Routers choose the best path based on:
+
+* **Shortest path** (fewer network devices to cross).
+* **Most reliable path** (lowest chance of packet loss).
+* **Fastest connection** (e.g., Fiber Optic is faster than Copper).
+
+### Protocols
+
+* IP (Internet Protocol)
+* OSPF (Open Shortest Path First)
+* RIP (Routing Information Protocol)
+
+### Devices
+
+* Router
+* Layer 3 Switch
+
+### Example
+
+When you open a website, the router uses the website's **IP address** to find the best route and deliver the data from your computer to the web server.
+
+> **Key Point:** The **Network Layer** uses **IP addresses** to route packets between different networks, while routers are the main devices that operate at this layer.
