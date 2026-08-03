@@ -1,0 +1,27 @@
+## 6. Presentation Layer (Layer 6)
+
+The **Presentation Layer** is responsible for **translating, formatting, encrypting, and decrypting data** so that different applications and devices can understand each other.
+
+It acts as a **translator** between the **Application Layer** and the lower layers of the OSI model. Even if two devices use different software (such as different email clients or web browsers), this layer ensures that the data is presented in a common format.
+
+The Presentation Layer also handles **data encryption** for secure communication and **data compression** to reduce the amount of data being transmitted.
+
+### Functions
+
+* Translates data into a standard format.
+* Encrypts and decrypts data.
+* Compresses and decompresses data.
+* Ensures compatibility between different applications.
+
+### Examples
+
+* **HTTPS (SSL/TLS)** for secure web browsing.
+* Email clients displaying the same email correctly.
+* Image formats such as JPEG and PNG.
+* File formats such as PDF.
+
+### Example
+
+When you visit a secure website using **HTTPS**, the Presentation Layer encrypts your data before it is sent and decrypts it when it reaches the destination, keeping your information secure.
+
+> **Key Point:** The **Presentation Layer** ensures that data is **formatted, encrypted, and compressed** so different systems can communicate securely and correctly.
