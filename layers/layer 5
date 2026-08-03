@@ -1,0 +1,21 @@
+## 5. Session Layer (Layer 5)
+
+The **Session Layer** is responsible for **creating, managing, and ending communication sessions** between two devices. A **session** is a temporary connection that allows devices to exchange data.
+
+Once a session is established, this layer keeps the connection active while data is being transferred. When the communication is complete or the connection is inactive for a long time, the session is closed.
+
+The Session Layer also uses **checkpoints**. If the connection is interrupted, data transfer can resume from the last checkpoint instead of starting over, saving time and bandwidth.
+
+### Functions
+
+* Establishes communication sessions.
+* Maintains active connections between devices.
+* Terminates sessions when communication ends.
+* Uses checkpoints to recover interrupted data transfers.
+* Synchronizes communication between devices.
+
+### Example
+
+When you log in to a website or join a video meeting, the Session Layer creates and maintains the session until you log out or disconnect.
+
+> **Key Point:** The **Session Layer** manages the communication session between devices, ensuring the connection stays active and can recover from interruptions.
