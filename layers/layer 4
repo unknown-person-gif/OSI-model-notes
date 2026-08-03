@@ -1,0 +1,54 @@
+## 4. Transport Layer (Layer 4)
+
+The **Transport Layer** is responsible for **reliable data delivery** between devices. It breaks large amounts of data into smaller **segments**, sends them across the network, and ensures they are received correctly and in the right order.
+
+This layer uses two main protocols:
+
+### TCP (Transmission Control Protocol)
+
+TCP is a **connection-oriented** protocol that provides **reliable communication**.
+
+**Features**
+
+* Establishes a connection before sending data.
+* Ensures all data is delivered successfully.
+* Detects and retransmits lost packets.
+* Delivers data in the correct order.
+* Performs error checking.
+
+**Examples**
+
+* Web Browsing (HTTP/HTTPS)
+* Email (SMTP, IMAP, POP3)
+* File Transfer (FTP)
+
+### UDP (User Datagram Protocol)
+
+UDP is a **connectionless** protocol that focuses on **speed** rather than reliability.
+
+**Features**
+
+* No connection setup required.
+* Faster than TCP.
+* Does not guarantee delivery or packet order.
+* No retransmission of lost packets.
+
+**Examples**
+
+* Video Streaming
+* Online Gaming
+* Voice Calls (VoIP)
+* DNS Queries
+
+### Functions
+
+* Segments and reassembles data.
+* Ensures reliable data delivery (TCP).
+* Performs error detection and recovery.
+* Controls data flow between devices.
+
+### Example
+
+When downloading a file, **TCP** ensures every piece of the file arrives correctly and in the correct order. When watching a live video or playing an online game, **UDP** is preferred because speed is more important than perfect delivery.
+
+> **Key Point:** **TCP = Reliable but slower.** **UDP = Faster but less reliable.**
